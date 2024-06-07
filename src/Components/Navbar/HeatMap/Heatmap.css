@@ -1,0 +1,25 @@
+.heatmap-container iframe {
+  width: 100%;
+  /* padding-top: 50px; */
+  height: 100vh;
+  padding: 50px 10px;
+  border: none;
+  /* border-radius: 50px; */
+}
+
+h1 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: max(4vw, 36px);
+}
+
+p {
+  width: 75%;
+  padding-top: 30px;
+  color: #e3e3e3;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e3e3e3;
+}

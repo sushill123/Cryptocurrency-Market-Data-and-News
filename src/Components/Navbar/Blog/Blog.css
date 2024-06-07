@@ -1,0 +1,32 @@
+.grid-container-blog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.grid-items {
+   width: 100%;
+   height: auto; /* Set height to auto to be more flexible */
+   border: 1px solid white;
+   display: flex;
+   flex-direction: column;
+}
+
+.grid-items img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  flex-grow: 1; /* Let the image grow */
+}
+
+.blog-heading {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.blog-subheading {
+  font-weight: 400;
+  /* font-size: 18px; */
+  padding: 10px;
+}
